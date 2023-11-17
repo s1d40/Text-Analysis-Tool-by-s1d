@@ -1,7 +1,14 @@
 # pylint:disable=W0612
+#needed for fetching webpage
 import requests
+#provides excelent html parser for extraxtion
 from bs4 import BeautifulSoup
+#we'll use pandas to plot the sata and save in excel format
 import pandas as pd
+#the rest of the libraries is for text parsing and treating
+#If needed install packages
+#nltk.download('stopwords')
+#nltk.download('punkt')
 import re
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
