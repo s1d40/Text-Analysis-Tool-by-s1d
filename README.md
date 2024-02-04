@@ -11,15 +11,28 @@ Installation
 
 To run this tool, you need Python 3 and a few additional libraries. 
 Here's how to get started:
+
 Clone the Repository (or download the ZIP file):
+
 git clone https://github.com/your-username/your-repo-name.git
+
+
 Navigate to the Directory:cd your-repo-name
 Install Required Libraries:
+
 pip install requests beautifulsoup4 pandas nltk
+
+
 Usage
+
 To use the tool, run the main script from your terminal:
+
 python main.py
+
+
 Follow the on-screen prompts to choose between analyzing text from a URL or a text file. 
+
+
 The tool will process the text, displaying word frequencies and providing an option to save the results.
 
 
